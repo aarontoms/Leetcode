@@ -6,7 +6,6 @@ class Solution:
 
         @lru_cache(None)
         def backtrack(i, j):
-            print(i,j)
             if i>=m and j>=n:
                 return True
             if j>=n:
